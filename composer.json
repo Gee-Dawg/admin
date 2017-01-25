@@ -1,15 +1,22 @@
 {
   "name": "gndlovu/admin",
-  "description": "GNDLOVU Administrator package.",
+  "description": "Custom admin look and feel library for the Laravel 5+ framework - developed by gndlovu",
+  "version": "0.1.0",
+  "keywords": ["gndlovu", "Laravel", "admin", "Admininistrator"],
   "authors": [
     {
       "name": "Gladwell Ndlovu",
-      "email": "gladwell_n@live.com",
-      "role": "Intermediate Developer"
+      "email": "gladwell_n@live.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
+    "php": ">=5.4.0",
     "laravelcollective/html": "5.3.*"
-  }
+  },
+  "autoload": {
+    "psr-0": {
+      "Ixudra\\gndlovu\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
 }
