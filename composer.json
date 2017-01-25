@@ -11,6 +11,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "laravelcollective/html": "5.3.*"
   },
   "autoload": {
     "psr-0": {
