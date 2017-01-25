@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Ixudra\\gndlovu\\": "src/"
+      "gndlovu\\admin\\": "src/"
     }
   },
   "minimum-stability": "stable"
