@@ -1,7 +1,7 @@
 {
   "name": "gndlovu/admin",
   "description": "Custom admin look and feel library for the Laravel 5+ framework - developed by gndlovu",
-  "version": "0.1.0",
+  "version": "master",
   "keywords": ["gndlovu", "Laravel", "admin", "Admininistrator"],
   "authors": [
     {
