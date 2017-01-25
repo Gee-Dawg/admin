@@ -1,4 +1,4 @@
-Custom admin look and feel library for the Laravel 5 framework - developed by gndlovu.
+Custom admin look and feel library for Laravel 5 framework - developed by gndlovu.
 
 Installation.
 
