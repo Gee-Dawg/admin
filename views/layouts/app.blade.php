@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'GNDLOVU') }}</title>
 
     <!-- Styles -->
     {!! Html::style(url('vendor/admin/css/font-awesome.min.css')) !!}
