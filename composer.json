@@ -1,0 +1,15 @@
+{
+  "name": "gndlovu/admin",
+  "description": "GNDLOVU Administrator package.",
+  "authors": [
+    {
+      "name": "Gladwell Ndlovu",
+      "email": "gladwell_n@live.com",
+      "role": "Intermediate Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "laravelcollective/html": "5.3.*"
+  }
+}

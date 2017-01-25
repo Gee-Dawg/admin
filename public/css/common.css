@@ -1,0 +1,49 @@
+/*Table to div*/
+@media only screen and (max-width: 800px) {
+    #table-to-div table,
+    #table-to-div thead,
+    #table-to-div tbody,
+    #table-to-div th,
+    #table-to-div td,
+    #table-to-div tr
+    {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #table-to-div thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #table-to-div tr { border: 1px solid #ccc; }
+
+    #table-to-div td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #table-to-div td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #table-to-div td:before { content: attr(data-title); }
+}
