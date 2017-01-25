@@ -9,7 +9,7 @@
       "email": "gladwell_n@live.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
   "require": {
     "laravelcollective/html": "5.3.*"
   },
